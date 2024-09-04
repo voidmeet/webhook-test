@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Simulate build process
-                echo 'Building...again'
+                echo 'Building...abcdagain'
             }
         }
 
