@@ -12,21 +12,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Simulate build process
-                echo 'Building...'
+                echo 'Building...again'
             }
         }
 
         stage('Test') {
             steps {
                 // Simulate testing
-                echo 'Testing...'
+                echo 'Testing...again'
             }
         }
 
         stage('Deploy') {
             steps {
                 // Simulate deployment
-                echo 'Deploying...'
+                echo 'Deploying...again'
             }
         }
     }
