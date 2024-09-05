@@ -12,21 +12,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Simulate build process
-                echo 'Building...dev branch again'
+                echo 'Building...dev branch again and also testing'
             }
         }
 
         stage('Test') {
             steps {
                 // Simulate testing
-                echo 'Testing...dev branch again'
+                echo 'Testing...dev branch again and also testing'
             }
         }
 
         stage('Deploy') {
             steps {
                 // Simulate deployment
-                echo 'Deploying...dev branch again'
+                echo 'Deploying...dev branch again and also testing'
             }
         }
     }
